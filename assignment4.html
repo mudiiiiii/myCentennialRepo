@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Created by - Mudiaga Otojareri - COMP 125 - MAR 23 2021 -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Registaration form</title>
+<meta content="&quot;Student&quot; &quot;Register&quot; &quot;Assignment 4&quot; &quot;Comp125 &quot; &quot;Client server" name="keywords">
+<meta content="Register here" name="description">
+<script src="assignment4.js"></script>
+<style type="text/css">
+.auto-style9 {
+	margin-left: 0px;
+}
+.auto-style10 {
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+</style>
+</head>
+
+<body>
+<div id="allPagge">
+<header>
+	Member Registration</header>
+<main>*Please complete all the following fields below:<br></main>
+<form id ="Registration" method="post"> 
+	<table style="width: 100%">
+		<tr>
+			<td style="width: 94px; height: 36px">First Name:</td>
+			<td style="height: 36px">
+	<input id = "fname"name="txtFname" type="text" class="auto-style10" size="15" style="width: 115px; height: 24px;" tabindex="1"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Last Name:</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id ="lname"name="txtLname" size="15" style="width: 115px; height: 24px;" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Street:</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id ="address"name="txtAddress" size="25" style="width: 276px; height: 30px;" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id ="city"name="txtCity" size="15" style="width: 115px; height: 30px;" tabindex="7" type="text"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Postal Code:</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id="postalcode" name="txtPostalCode" size="15" style="width: 115px; height: 30px;" tabindex="9" type="text"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Province:&nbsp;&nbsp;&nbsp;</td>
+			<td style="height: 36px">
+	<select class="auto-style9" id="province" name="Select1" style="width: 115px" tabindex="11">
+	<option selected="" value="~Select~">~Select~</option>
+	<option value="ON">ON</option>
+	<option value="QC">QC</option>
+	<option value="MN">MN</option>
+	<option value="SK">SK</option>
+	<option value="AB">AB</option>
+	<option value="BC">BC</option>
+	</select></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id ="age"name="txtAge" size="15" style="width: 115px; height: 30px;" tabindex="13" type="text"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Password:&nbsp;&nbsp;</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id ="password"name="pwdPassword" style="width: 114px; height: 30px;" tabindex="15" type="password"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Confirm pwd:</td>
+			<td style="height: 36px">
+			<input class="auto-style9" id ="confirm"name="pwdConfirmpass" style="width: 115px; height: 30px" type="password" tabindex="17"></td>
+		</tr>
+		<tr>
+			<td style="width: 94px; height: 36px">Email:</td>
+			<td style="height: 36px">
+	<input class="auto-style9" id ="email"name="txtEmail" style="width: 188px; height: 30px;" type="text" tabindex="19"></td>
+		</tr>
+	</table>
+<input name="btnSubmit" type="submit" value="Complete Registration" onclick="return formValidation();" style="width: 159px" tabindex="21" />
+	<input name="btnReset" style="width: 85px" tabindex="23" type="reset" value="Clear Form"></form>
+<footer>
+<p id="copyright">&copy;&nbsp;Copyright Mudiaga Otojareri - Assignment #4 - COMP125</p>
+</footer>
+</div>
+</body>
+
+</html>
